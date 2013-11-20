@@ -9,7 +9,7 @@ Installation
 ---------
 1. Add the following to your applications Gemfile
 
-  gem 'spree_alipay',   :github => "RuanShan/spree_alipay", :branch=>"2-0-stable"(or you perferred branch)
+  gem 'spree_alipay',   :github => "yakjuly/spree_alipay", :branch=>"2-1-stable"(or you perferred branch)
 
 2. Run bundler
 
