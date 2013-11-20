@@ -11,8 +11,8 @@ Spree::Core::Engine.routes.draw do
   end
 
   # Add your extension routes here
-  match '/alipay_checkout/done/' => 'checkout#alipay_done', :as => :alipay_done
-  match '/alipay_checkout/notify/' => 'checkout#alipay_notify', :as => :alipay_notify
+  get '/alipay_checkout/done/' => 'checkout#alipay_done', :as => :alipay_done
+  get '/alipay_checkout/notify/' => 'checkout#alipay_notify', :as => :alipay_notify
   # get '/alipay_checkout/done/' => 'checkout#alipay_done', :as => :alipay_done
   #  post '/alipay_checkout/done/' => 'checkout#alipay_done', :as => :alipay_done
 end
